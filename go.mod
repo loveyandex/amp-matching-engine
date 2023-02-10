@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/alicebob/miniredis v0.0.0-20180623114124-8890fdcfa933
-	github.com/ethereum/go-ethereum v1.8.1
+	github.com/ethereum/go-ethereum v1.8.15
 	github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8
 	github.com/go-ozzo/ozzo-routing v2.1.4+incompatible
 	github.com/go-ozzo/ozzo-validation v3.4.0+incompatible
@@ -31,7 +31,9 @@ require (
 	github.com/btcsuite/btcd v0.0.0-20180903232927-cff30e1d23fc // indirect
 	github.com/cespare/cp v1.1.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/deckarep/golang-set v1.8.0 // indirect
 	github.com/edsrzf/mmap-go v0.0.0-20170320065105-0bce6a688712 // indirect
+	github.com/fjl/memsize v0.0.1 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/golang/gddo v0.0.0-20210115222349-20d68f94ee1f // indirect
@@ -53,7 +55,6 @@ require (
 	github.com/pelletier/go-toml v1.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/prometheus v1.3.0 // indirect
-	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/rjeczalik/notify v0.9.1 // indirect
 	github.com/rs/cors v1.5.0 // indirect
 	github.com/spf13/afero v1.1.2 // indirect
@@ -69,7 +70,6 @@ require (
 	golang.org/x/text v0.6.0 // indirect
 	golang.org/x/tools v0.1.12 // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
-	gopkg.in/fatih/set.v0 v0.2.1 // indirect
 	gopkg.in/karalabe/cookiejar.v2 v2.0.0-20150724131613-8dcd6a7f4951 // indirect
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
 	gopkg.in/tomb.v2 v2.0.0-20161208151619-d5d1b5820637 // indirect

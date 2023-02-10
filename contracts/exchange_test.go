@@ -132,7 +132,7 @@ func TestTrade(t *testing.T) {
 		t.Errorf("Error deploying token 1: %v", err)
 	}
 
-	buyToken, buyTokenAddr, _, err := deployer.DeployToken(taker.Address, buyAmount)
+	buyToken, buyTokenAddr, _, err := deployer.DeployToken(taker.Address, taker.buyAmount)
 	if err != nil {
 		t.Errorf("Error deploying token 2: %v", err)
 	}
